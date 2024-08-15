@@ -81,14 +81,6 @@ function SideBar({ onMenuItemClick }) {
         >
           <IoStatsChartSharp />
         </div>
-        <div
-          className={`cursor-pointer p-1 ${
-            selectedItem === "/stacks" ? "bg-gray-600 rounded-lg" : ""
-          }`}
-          onClick={() => handleMenuItemClick("/stacks")}
-        >
-          <IoStatsChartSharp />
-        </div>
       </div>
       <div className="text-white bg-green-500 p-2 rounded-full">KS</div>
     </div>
