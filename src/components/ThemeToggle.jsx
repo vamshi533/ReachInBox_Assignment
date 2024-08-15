@@ -16,7 +16,7 @@ function ThemeToggle() {
         className="bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white px-3 py-2 rounded-full flex items-center"
         onClick={() => setDarkMode(!darkMode)}
       >
-        {darkMode ? <FaSun className="mr-2" /> : <FaMoon className="mr-2" />}
+        {darkMode ? <FaSun className="" /> : <FaMoon className="" />}
       </button>
     </div>
   );
