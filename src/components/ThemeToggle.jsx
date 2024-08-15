@@ -17,7 +17,6 @@ function ThemeToggle() {
         onClick={() => setDarkMode(!darkMode)}
       >
         {darkMode ? <FaSun className="mr-2" /> : <FaMoon className="mr-2" />}
-        <span></span>
       </button>
     </div>
   );
