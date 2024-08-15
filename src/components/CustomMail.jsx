@@ -12,10 +12,10 @@ import { IoMdCode } from "react-icons/io";
 import { IoLinkSharp } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
 import { TbSquareLetterA } from "react-icons/tb";
-import { ThemeToggle } from "./ThemeToggle.jsx"; // Assume ThemeContext is set up to provide theme information
+import { ThemeContext } from "./ThemeToggle.jsx"; // Assume ThemeContext is set up to provide theme information
 
 function CustomMail({ threadId, onClose }) {
-  const { darkMode } = useContext(ThemeToggle);
+  const { darkMode } = useContext(ThemeContext);
   const [replyData, setReplyData] = useState({
     to: "",
     from: "",
